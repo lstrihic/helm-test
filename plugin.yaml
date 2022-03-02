@@ -1,7 +1,5 @@
 name: "helm-test"
-# Version is the version of Helm plus the number of official builds for this
-# plugin
-version: "3.4.2"
+version: "0.0.1"
 usage: "Plugin test"
 description: "Plugin test"
 useTunnel: true
