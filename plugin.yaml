@@ -1,5 +1,5 @@
 name: "helm-test"
-version: "0.0.3"
+version: "0.0.5"
 usage: "Plugin test"
 description: "Plugin test"
 useTunnel: true

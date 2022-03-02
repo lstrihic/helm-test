@@ -28,10 +28,6 @@ archives:
       - README.md
       - LICENSE
       - scripts/install.sh
-    replacements:
-      amd64: x86_64
-      darwin: Darwin
-      linux: Linux
 checksum:
   name_template: 'checksums.txt'
 snapshot:
