@@ -30,7 +30,7 @@ clear:
 
 .PHONY: release
 release:
-	goreleaser build --single-target
+	goreleaser build --single-target --rm-dist
 
 .PHONY: license
 license:
