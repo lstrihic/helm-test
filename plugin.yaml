@@ -18,6 +18,10 @@ usage: "Plugin test"
 description: "Plugin test"
 useTunnel: true
 command: "$HELM_PLUGIN_DIR/bin/helm-test"
+downloaders:
+  - command: "bin/helm-test"
+    protocols:
+      - "futl"
 hooks:
   install: "cd $HELM_PLUGIN_DIR; ./scripts/install.sh"
   update: "cd $HELM_PLUGIN_DIR; ./scripts/install.sh"
