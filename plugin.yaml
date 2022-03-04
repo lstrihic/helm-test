@@ -13,7 +13,7 @@
 # limitations under the License.
 
 name: "helm-test"
-version: "0.0.7"
+version: "0.0.8"
 usage: "Plugin test"
 description: "Plugin test"
 useTunnel: true
